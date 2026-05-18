@@ -68,13 +68,13 @@ function renderAll() {
   document.getElementById('about-bio').textContent =
     `Halo! Saya ${DB.name.split(' ')[0]}. ${DB.bio}`;
   document.getElementById('about-details').innerHTML = `
-    <div class="detail-item"><span class="detail-icon">🎓</span>
+    <div class="detail-item"><span class="detail-icon"></span>
       <span class="detail-text">${DB.university}</span></div>
-    <div class="detail-item"><span class="detail-icon">📍</span>
+    <div class="detail-item"><span class="detail-icon"></span>
       <span class="detail-text">${DB.location}</span></div>
-    <div class="detail-item"><span class="detail-icon">📊</span>
+    <div class="detail-item"><span class="detail-icon"></span>
       <span class="detail-text">IPK: <strong>${DB.gpa}</strong></span></div>
-    <div class="detail-item"><span class="detail-icon">📅</span>
+    <div class="detail-item"><span class="detail-icon"></span>
       <span class="detail-text">Semester: <strong>${DB.semester}</strong></span></div>`;
 
   /* ── Experience ── */

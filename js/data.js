@@ -45,16 +45,16 @@ const DB = {
 
   experiences: [
     {
-      period:  "Januari 2024 — Sekarang",
-      title:   "Web Developer Intern",
-      company: "Nama Perusahaan",
-      desc:    "Deskripsi pekerjaan dan kontribusi Anda di sini.",
+      period:  "Juli 2024 — Agustus 2024",
+      title:   "Pelatihan Digital Marketing",
+      company: "Balai Latihan Kerja (BLK) Surabaya",
+      desc:    "Mempelajari Analisis SWOT pada Produk dengan memahami cara memasarkan produk dengan efektif. Juga mempromosikan produk melalui iklan, postingan sosmed, dan broadcast copywriting.",
     },
     {
-      period:  "Juli 2023 — Desember 2023",
-      title:   "UI/UX Designer",
-      company: "Nama Perusahaan",
-      desc:    "Deskripsi pekerjaan dan kontribusi Anda di sini.",
+      period:  "Oktober 2024 — November 2024",
+      title:   "Workshop Soft Skills",
+      company: "Laboratorium MSI — UPN Veteran Jawa Timur",
+      desc:    "Memahami potensi pada diri sendiri dan cara mengembangkan soft skills untuk karier yang sukses.",
     },
   ],
 
@@ -80,21 +80,18 @@ const DB = {
       issuer: "Laboratorium MSI — UPN Veteran Jawa Timur",
       img:    "assets/images/cert-workshop.png",
       link:   "#",
-      emoji:  "🏆",
     },
     {
       name:   "Python Developer",
       issuer: "Sololearn",
       img:    "assets/images/cert-python.jpg",
       link:   "#",
-      emoji:  "🐍",
     },
     {
       name:   "SQL Intermediate",
       issuer: "Sololearn",
       img:    "assets/images/cert-sql.jpg",
       link:   "#",
-      emoji:  "🗄️",
     },
   ],
 
@@ -120,7 +117,6 @@ const DB = {
       title: "DIMARI — Digital Marketing Interactive",
       desc:  "Platform web pembelajaran digital marketing yang mencakup materi modul, quiz, forum diskusi, achievements, dan manajemen profil. Dibangun dengan Laravel, Tailwind CSS, dan PHP untuk pengalaman belajar yang interaktif.",
       img:   "assets/images/project-dimari.png",
-      emoji: "📊",
       tags:  ["Laravel", "Tailwind CSS", "PHP", "MySQL"],
       link:  "#",
     },
